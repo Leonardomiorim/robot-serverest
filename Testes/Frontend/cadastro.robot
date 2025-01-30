@@ -1,12 +1,10 @@
 *** Settings ***
 Library    SeleniumLibrary
-
 *** Variables ***
 ${URL}    https://front.serverest.dev/login
 ${NOME}    Luan Thomass Cláudio Nunes
-${EMAIL}    luanthomsasnunes@testerest.com
+${EMAIL}    ludanthomssasnunes@testerest.com
 ${PASSWORD}    75uj0m7k
-
 *** Test Cases ***
 Deve acessar a página de cadastro com sucesso
     Open Browser    ${URL}    chrome
@@ -14,7 +12,6 @@ Deve acessar a página de cadastro com sucesso
     Click Link    xpath=//*[@id="root"]/div/div/form/small/a
     Wait Until Location Is    https://front.serverest.dev/cadastrarusuarios
     Close Browser
-
 Deve realizar um cadastro com sucesso
     Open Browser    ${URL}    chrome
     Click Link    xpath=//*[@id="root"]/div/div/form/small/a
