@@ -1,0 +1,5 @@
+Robot:
+  OutputDir: ./reports
+  LogLevel: TRACE
+SeleniumLibrary:
+  ScreenshotRootDirectory: ./screenshots
