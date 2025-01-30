@@ -4,32 +4,6 @@ Este projeto utiliza o **Robot Framework** para realizar testes automatizados de
 
 ---
 
-## **📁 Estrutura do Projeto**
-
-robot-serverest/
-│
-├── Resources/
-│   ├── screenshots/         # Capturas de tela geradas automaticamente durante os testes
-│
-├── Reports/                 # Relatórios de execução
-│
-├── Testes/
-│   ├── API/
-│   │   ├── cadastro.robot    # Testes de cadastro de usuários via API
-│   │   ├── produtos.robot    # Testes de produtos via API
-│   │   ├── usuario.robot     # Testes de login e gerenciamento de usuários via API
-│   │
-│   ├── Frontend/
-│   │   ├── cadastro.robot    # Testes de cadastro no Frontend
-│   │   ├── login.robot       # Testes de login no Frontend
-│   │   ├── produtos.robot    # Testes de gerenciamento de produtos no Frontend
-│
-├── README.md                # Documentação do projeto
-├── requirements.txt         # Dependências do projeto
-├── robot.yaml               # Configurações do Robot Framework
-
----
-
 ## **📦 Dependências**
 
 ### Certifique-se de ter as seguintes ferramentas instaladas no seu ambiente:
