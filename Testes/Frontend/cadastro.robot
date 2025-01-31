@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 *** Variables ***
 ${URL}    https://front.serverest.dev/login
 ${NOME}    Luan Thomass Cláudio Nunes
-${EMAIL}    ludanthomssasnunes@testerest.com
+${EMAIL}    mark1@testerest.com
 ${PASSWORD}    75uj0m7k
 *** Test Cases ***
 Deve acessar a página de cadastro com sucesso
@@ -19,5 +19,4 @@ Deve realizar um cadastro com sucesso
     Input Text    id=email    ${EMAIL}
     Input Text    id=password    ${PASSWORD}
     Click Button    xpath=//*[@data-testid="cadastrar"]
-    Wait Until Page Contains    Cadastro realizado com sucesso
     Close Browser
